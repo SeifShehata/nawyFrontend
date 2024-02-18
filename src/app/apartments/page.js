@@ -3,7 +3,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import {
   Card,
   CardContent,
-  Container,
   Box,
   Typography,
   Grid,
@@ -120,7 +119,7 @@ function Apartments(){
       <Grid container spacing={2}>
         {cardElements}
       </Grid>
-      {loading && <p>Loading...</p>}
+    
     </Box>
   );
 }

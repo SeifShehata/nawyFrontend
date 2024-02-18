@@ -1,0 +1,5 @@
+{
+  "/apartments/page": "app/apartments/page.js",
+  "/apartments/details/page": "app/apartments/details/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

@@ -1,4 +1,164 @@
-:root {
+*{
+  box-sizing: border-box;
+
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  margin:0;
+}
+.nav-text {
+  margin-left: auto;
+}
+
+
+
+
+/* Add this to your CSS */
+.nav-text {
+  margin-left: auto;
+}
+
+.details-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 250px; /* Adjust margin as needed */
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    margin:8px;
+    padding:8px;
+  }
+}
+.details-imgs {
+  /* display: grid;
+  grid-template-columns: 3fr repeat(4, 1fr); */
+  display: flex;
+  gap: 8px;
+  height: 550px;
+  max-width: 1400px;
+  max-height: 800px;
+  overflow: hidden;
+  
+}
+.details-imgs img {
+  transition: 0.4s ease-in-out;
+  position: relative;
+  max-width:600px;
+  max-height: 500px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .details-imgs  {
+    transition: none;
+    min-width:100%;
+    display:flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: auto;
+    
+
+  }
+}
+@media (max-width: 768px) {
+  .details-imgs img {
+    transition: none;
+    min-width:100%;
+    
+
+  }
+}
+@media (max-width: 768px) {
+  .details-imgs img:hover {
+    transition: none;
+    min-width:108%;
+
+  }
+}
+
+
+/* .details-imgs:hover{
+  grid-template-columns: 1fr repeat(4, 2fr);
+  transition: 0.4s ease-in-out;
+} */
+.image-1{
+  transition: 0.4s ease-in-out;
+  min-width:30%;
+}
+.image-1:hover{
+  min-width:40%;
+  transition: 0.4s ease-in-out;
+  /* transform: translateX(-20%); */
+  
+}
+.image-2:hover{
+  min-width:30%;
+  transition: 0.4s ease-in-out;
+  /* transform: translateX(-20%); */
+  
+}
+.image-2{
+  min-width:15%;
+}
+
+.image-3:hover{
+  min-width:30%;
+  transition: 0.4s ease-in-out;
+}
+.image-3{
+  min-width:15%;
+}
+.image-4:hover{
+  min-width:30%;
+  transition: 0.4s ease-in-out;
+}
+.image-4{
+  min-width:15%;
+}
+.image-5:hover{
+  min-width:30%;
+  transition: 0.4s ease-in-out;
+}
+.image-5{
+  min-width:15%;
+}
+
+
+.details-imgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.details-description {
+  text-align: left;
+  margin-top: 20px;
+  font-weight: 1rem;
+  box-shadow: 0 2px 2px -2px gray;
+  
+}
+
+
+p{
+  margin:0;
+  padding:0;
+}
+h3{
+  margin-bottom:0;
+}
+.details-title {
+  font-size: 1.35rem;
+  padding: 24px 0px 0px;
+  font-weight: bold;
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -104,4 +264,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

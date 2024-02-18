@@ -28,7 +28,6 @@ nawyFrontend is the frontend for the NawyNative project, which includes an Apart
 
     npm run dev
 
-3. navigate to http://localhost:4000/apartments
 
 if you encounter problems please reach out to me via email at seifshehata99@gmail.com 
 
